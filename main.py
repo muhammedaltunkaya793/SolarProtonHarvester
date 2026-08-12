@@ -20,7 +20,7 @@ from solar_wind import SolarWind
 from fields import SolarWindField
 from integrator import simulate
 from harvester import Harvester
-from visualization import plot_trajectory, plot_energy, plot_speed
+from visualization import plot_trajectory, plot_energy, plot_speed,plot_trajectory_xy
 
 
 def print_header():
@@ -121,6 +121,7 @@ def main():
 
     # Visual diagnostics.
     plot_trajectory(result)
+    plot_trajectory_xy(result)
     plot_energy(result)
     plot_speed(result)
 
