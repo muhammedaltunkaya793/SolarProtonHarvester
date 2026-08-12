@@ -1,0 +1,45 @@
+==============================================================
+=== SOLAR PROTON ENERGY HARVESTER ===
+Relativistic charged-particle research demonstrator
+==============================================================
+
+--- RELATIVISTIC PROTON ---
+Speed:              2.698132122e+08 m/s
+v/c:                0.900000000
+Lorentz gamma:      2.294157339
+Rest energy:        1.503277616e-10 J
+Total energy:       3.448755375e-10 J
+Kinetic energy:     1.945477759e-10 J
+Kinetic energy:     1.214272e+09 eV
+Kinetic energy:     1214.271709 MeV
+Momentum magnitude: 1.035342870e-18 kg*m/s
+
+=== RELATIVISTIC CONSISTENCY CHECK ===
+E² = (pc)² + (mc²)²
+PASS
+Relative numerical error: 2.024e-16
+
+--- SOLAR-WIND ENVIRONMENT ---
+Number density:     5.000e+06 m^-3
+Bulk speed:         4.000e+05 m/s
+Temperature:        1.000e+05 K
+1D thermal speed:   2.873e+04 m/s
+Particle flux:      2.000e+12 m^-2 s^-1
+Kinetic-energy flux: 2.676195e-04 W/m^2
+Motional |E|:       2.000000e-03 V/m
+|B|:                5.000000e-09 T
+
+--- HARVESTER ENERGY BUDGET ---
+Collector area:     1.000 m^2
+Collection eff.:    50.0%
+Conversion eff.:    20.0%
+Intercepted power:  1.338098e-04 W
+Usable power:       2.676195e-05 W
+
+--- PARTICLE DYNAMICS ---
+Simulation time:    2.000e-07 s
+Time step:          1.000e-10 s
+Steps:              2000
+Initial KE:         1.214272e+09 eV
+Final KE:           1.214272e+09 eV
+Delta KE:           1.129375e-06 eV
